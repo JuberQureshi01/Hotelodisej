@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gowun Batang";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    padding-top: 0.1px;
+
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #E3E3C4;
+}
+#page1 img{
+    height: 30vh;
+    object-fit: cover;
+    width: 50%;
+    top: 40%;
+    position: relative;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+  
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    justify-content: space-between;
+    color: #2d3322;
+    position: relative;
+    top: 4vh;
+    z-index: 1;
+}
+
+#main-h1{
+    text-align: center;
+    font-size: 2vw;
+    margin: 10vw 0 0 11vw;
+    line-height: 45px;
+
+    /* padding-left: 6vw; */
+}
+#main-h1 h1{
+    font-size: 4vw;
+
+}
+
+#nav h3 :hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+#main-h1 :hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+#nav h3{
+    padding-left: 3vw;
+    font-size: 2vw;
+}
+#btndiv{
+    padding-right: 3vw;
+    gap: 20px;
+}
+
+#btndiv button
+{
+    padding: 0.5vw 1vw;
+    border-radius: 24px;
+}
+#btndiv button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+#btn1{
+    border: 1px solid grey;
+    background-color: transparent;font-weight: 700;
+    color: gray;
+
+}
+#btn2{
+    border: none;
+background-color: #556043;
+color: white;
+font-size: 16px;
+ font-weight: 800;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #556043;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+
+}
+#page2 h1{
+color: #434b34;
+font-size: 6vw;
+text-align: center;
+font-weight: 300;
+line-height: 5.5vw;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #E3E3C4;
+    padding: 7vw;
+    color: #2d3322;
+    padding-bottom: 17vw;
+}
+
+#pag{
+    display: flex;
+    padding-top: 7vw;
+}
+#page3 h1{
+    font-size: 5vw;
+    line-height: 5vw;
+    padding-left: 19vw;
+    font-weight: 800;
+    
+}
+#para{
+    width:80%;
+}
+
+#page3-part1{
+    width: 40%;
+}
+#page3-part1 p{
+    font-size: 12px;
+}
+#page3-part1 h3{
+    padding-top: 1vw;
+}
+#page3-part1 h3 i{
+    font-size: 18px;
+    background-color: #556043;
+    padding: 0 1.5vw;
+    border-radius: 10px;
+    color:#E3E3C4;
+}
+#page3-part1 img{
+    width: 85%;
+    height: 50vh;
+    border-radius: 30px;
+    margin-top: 4vw;
+}
+#page3-part2{
+    width: 50%;
+    line-height: 4vw;
+}
+
+#page3-img1{
+width: 100%;
+height: 55vh;
+border-radius: 30px;
+object-fit: cover;
+}
+#page3-img2{
+width: 50%;
+height: 30vh;
+border-radius: 30px;
+object-fit: cover;
+}
+
+#page4{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
